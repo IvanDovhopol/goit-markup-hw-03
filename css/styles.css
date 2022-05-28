@@ -177,7 +177,7 @@ body {
   padding-bottom: 94px;
 }
 
-.feature-title {
+.hiden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -334,18 +334,6 @@ body {
 }
 
 /* ---------------------- portfolio ----------------------*/
-.portfolio-title {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
 
 .portfolio-content {
   padding-top: 94px;
@@ -383,19 +371,6 @@ body {
 }
 
 /* ----------------------- product -----------------------*/
-.product-title {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
-
 .product-list {
   display: flex;
   flex-flow: wrap;
@@ -409,7 +384,8 @@ body {
   margin: 15px;
 }
 
-.product-item:hover {
+.product-item:hover,
+.product-item:focus {
   background-color: var(--accent-color);
 }
 
