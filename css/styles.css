@@ -168,6 +168,7 @@ body {
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: 1px solid transparent;
 }
 
 /* ------------------------ feature ------------------------*/
